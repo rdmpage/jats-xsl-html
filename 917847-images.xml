@@ -1,0 +1,985 @@
+<?xml version="1.0"?>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jats.nlm.nih.gov/publishing/1.1/xsd/JATS-journalpublishing1-mathml3.xsd" dtd-version="1.1">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">PSYCHE</journal-id>
+      <journal-title-group>
+        <journal-title>Psyche</journal-title></journal-title-group>
+      <issn pub-type="epub">1687-7438</issn>
+      <issn pub-type="ppub">0033-2615</issn>
+      <publisher>
+        <publisher-name>Hindawi Publishing Corporation</publisher-name></publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="other">917847</article-id>
+      <article-id pub-id-type="doi">10.1155/2013/917847</article-id>
+      <article-id pub-id-type="publisher-id">917847</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject></subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A New Species of Afrotropical Ants in the Genus <italic>Bothroponera</italic> (Hymenoptera: Formicidae: Ponerinae)</article-title></title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="U41274526" corresp="yes">
+          <name>
+            <surname>Joma</surname>
+            <given-names>Abdulmeneem M. A.</given-names></name>
+          
+          <xref ref-type="aff" rid="I1">
+            <sup>1, 2</sup></xref>
+          <xref ref-type="aff" rid="I2"/></contrib>
+        <contrib contrib-type="author" id="U56278201">
+          <name>
+            <surname>Mackay</surname>
+            <given-names>William P.</given-names></name>
+          <xref ref-type="aff" rid="I2">
+            <sup>2</sup></xref>
+        </contrib>
+        <contrib contrib-type="Academic Editor" id="U65095674">
+          <name>
+            <surname>Hefetz</surname>
+            <given-names>Abraham</given-names></name>
+        </contrib></contrib-group>
+      <aff id="I1">
+        <sup>1</sup>
+        <addr-line>Department of Zoology, Faculty of Sciences</addr-line>
+        <addr-line>The University of Sebha, P.O. Box 18758, Sebha</addr-line>
+        <country>Libya</country>
+        <ext-link ext-link-type="domain-name">sebhau.edu.ly</ext-link></aff>
+      <aff id="I2">
+        <sup>2</sup>
+        <addr-line>Department of Biological Sciences, Ecology and Evolutionary Biology Program</addr-line>
+        <addr-line>The University of Texas at El Paso, 500 West University Avenue, El Paso, TX 79968</addr-line>
+        <country>USA</country>
+        <ext-link ext-link-type="domain-name">utep.edu</ext-link></aff>
+      <pub-date pub-type="publication-year">
+        <year>2013</year></pub-date>
+      <pub-date pub-type="archival-date">
+        <day>28</day>
+        <month>7</month>
+        <year>2013</year></pub-date>
+      <volume>2013</volume>
+      <history>
+        <date date-type="received">
+          <day>03</day>
+          <month>04</month>
+          <year>2013</year></date>
+        <date date-type="accepted">
+          <day>24</day>
+          <month>06</month>
+          <year>2013</year></date>
+      </history>
+      <permissions>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Copyright &#xA9; 2013 Abdulmeneem M. A. Joma and William P. Mackay.</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license>
+      </permissions>
+      <abstract>
+        <p>We describe a new species of Afrotropical <italic>Bothroponera</italic> from Whittlesea City, Eastern Cape Province, South Africa. This species is unique among the African <italic>Bothroponera</italic> as it is the only species with a horizontal propodeal spiracle. It is also the largest species of African <italic>Bothroponera</italic> (total length 14.80&#x2013;15.65). The clypeus lacks a medial longitudinal carina, the head is subquadrate, the sculpture is mostly foveolate, and the second gastral segment nearly lacks sculpturing. We compare the new species to the similar <italic>B. cavernosa</italic> and <italic>B. cavernosa</italic> var. <italic>montivaga</italic>. We also compare the new species to all of the other 10 taxa that belong to the <italic>cavernosa</italic> complex. A key to the <italic>cavernosa</italic> complex species of the Afrotropical <italic>Bothroponera</italic> is provided along with diagnosis, comparison, distribution, habitat, biology, and etymology for the new species.</p></abstract>
+      <counts>
+        <ref-count count="39"/>
+        <page-count count="8"/></counts></article-meta>
+  </front>
+  <body>
+    <sec id="sec1">
+      <title>1. Introduction</title>
+      <sec id="sec1.1">
+        <title>1.1. Ants of Africa and Their Importance</title>
+        <p>Ants are generally considered a remarkable model for the study of population dynamics and ecosystem structure and function, especially in tropical, subtropical, and biodiversity hotspot areas, because of the ecological roles of these organisms in ecosystems. Ant species are considered keystone species in several terrestrial ecosystems and are unique in that they can interact biologically and ecologically with other organisms and display huge positive and negative effects on ecosystem [<xref ref-type="bibr" rid="B1">1</xref>&#x2013;<xref ref-type="bibr" rid="B6">6</xref>]. They play almost all of the roles of symbiotic relationships with other organisms. Biologists study ant species for several reasons: they are easy to handle, able to survive in various habitats, adapt to extreme environments, and are small in size. Afrotropical regions are especially rich with ant species, where they disperse seeds in the Fynbos biome in South Africa [<xref ref-type="bibr" rid="B3">3</xref>, <xref ref-type="bibr" rid="B7">7</xref>, <xref ref-type="bibr" rid="B8">8</xref>]. Ant species play a central role in maintaining the vegetation at the appropriate density. Afrotropical ants are very important in optimal ecosystem management, such as <italic>Oecophylla longinoda</italic> in South Africa [<xref ref-type="bibr" rid="B9">9</xref>].</p></sec>
+      <sec id="sec1.2">
+        <title>1.2. Current Estimations of African Ant Diversity</title>
+        <p>Studies are still insufficient to estimate the actual number of species of African ants, which includes about 16 subfamilies and 83 to 154 genera [<xref ref-type="bibr" rid="B2">2</xref>, <xref ref-type="bibr" rid="B10">10</xref>]. The largest subfamilies are Myrmicinae with about 6983 species, Formicinae with about 3709 species, and Ponerinae with about 1250 species. Studies on the biodiversity of African ants demonstrate that these important organisms have a high species richness and great biodiversity in African ecosystems. Afrotropical ant genera have been sampled in several projects. Belshaw and Bolton [<xref ref-type="bibr" rid="B11">11</xref>] collected 47 genera in Ghana; Lindsey and Skinner [<xref ref-type="bibr" rid="B12">12</xref>] recorded 17 genera in Tussen die Riviere Game Reserve, Free State in South Africa; Parr and Chown [<xref ref-type="bibr" rid="B13">13</xref>] collected 16 genera from the central Satara area of the Kruger National Park, South Africa; Fisher [<xref ref-type="bibr" rid="B14">14</xref>] collected 56 genera on Monts Doudou in Southwestern Gabon; Yanoviak et al. [<xref ref-type="bibr" rid="B15">15</xref>] collected 14 genera in Gamba, Gabon; Braschler et al. [<xref ref-type="bibr" rid="B16">16</xref>] collected 35 genera in South Africa; Schoeman and Foord [<xref ref-type="bibr" rid="B17">17</xref>] collected 29 genera at the Marakele National Park, Limpopo province, South Africa; Hita Garcia et al. [<xref ref-type="bibr" rid="B39">18</xref>] recorded 52 genera from Kakamega Forest, Western Kenya. Robertson [<xref ref-type="bibr" rid="B2">2</xref>] listed 83 genera of Afrotropical ants. Some genera (44) have received modern taxonomic revision, while 39 genera including <italic>Pachycondyla</italic> have not been revised. By simple calculations, based on the previous studies and [<xref ref-type="bibr" rid="B10">10</xref>, <xref ref-type="bibr" rid="B18">19</xref>], the approximate number of African ant genera (excluding Malagasy genera) is about 126&#x2013;154. The number will increase soon as a result of the current active work on revisions of Afrotropical ants.</p></sec>
+      <sec id="sec1.3">
+        <title>1.3. Subfamily Ponerinae and Tribe Ponerini Characters</title>
+        <p>
+          <italic>Bothroponera</italic> belongs to the subfamily Ponerinae, which includes three tribes, Platythyreini, Ponerini, and Thaumatomyrmecini [<xref ref-type="bibr" rid="B19">20</xref>]. The worker of the subfamily Ponerinae can be recognized by several characters [<xref ref-type="bibr" rid="B19">20</xref>], including a well-developed sting, the toruli are completely fused to the frontal lobes, which are greatly narrowed posteriorly, and the palpal segments are reduced in length. The promesonotal suture is present and flexible with the pronotum and mesonotum capable of movement relative to each other. The metapleural gland orifice is simple. The clypeus is well developed. The petiole is present, the postpetiole is not separated from the gaster [<xref ref-type="bibr" rid="B20">21</xref>]. The petiole represents the second abdominal segment, the postpetiole is the third abdominal segment (first gastral segment), and the rest of abdominal segments are gastral segments 4&#x2013;7. The Ponerinae can often be recognized by a stridulatory organ on the dorsal surface of the second acrotergite [<xref ref-type="bibr" rid="B19">20</xref>, <xref ref-type="bibr" rid="B20">21</xref>]. The petiole is without tergosternal fusion [<xref ref-type="bibr" rid="B19">20</xref>]. The Ponerinae is considered to be a heterogeneous assemblage of ants [<xref ref-type="bibr" rid="B6">6</xref>]. The worker of the tribe Ponerini also has special characteristics such as the petiole has a slender articulation on the ventral side of the first gastral segment, palpal joints are reduced in number, and the frontal carinae converge posteriorly [<xref ref-type="bibr" rid="B20">21</xref>]. The clypeus has an anterior medial raised area and is narrowed from the sides of the head. The frontal lobes cover the base of the insertion of the scapes. The helcium projects from very low down on the anterior face of third abdominal segment, the latter with a high vertical anterior face above the helcium. This tribe is considered as a paraphyletic group based on apomorphic characteristics [<xref ref-type="bibr" rid="B19">20</xref>]. </p></sec>
+      <sec id="sec1.4">
+        <title>1.4. Genus <italic>Pachycondyla </italic></title>
+        <p>Since 1858, when Smith described the genus <italic>Pachycondyla</italic> [<xref ref-type="bibr" rid="B21">22</xref>], myrmecologists have continued to add new subgenera, and recently this genus and the proposed generic synonyms have reached a state of unclear taxonomic identity. This genus includes 18 subgenera, which in the future will probably be separated into more than 18 genera, <italic>Bothroponera</italic> being one of them. The taxonomic level of <italic>Pachycondyla</italic> is still under extensive study in that it could be a paraphyletic or even a polyphyletic assemblage. The morphological characters of these ants are heterogeneous; there is no apomorphic character that defines the genus [<xref ref-type="bibr" rid="B22">23</xref>], which suggests several separate genera within <italic>Pachycondyla</italic> [<xref ref-type="bibr" rid="B22">23</xref>, <xref ref-type="bibr" rid="B23">24</xref>]. Genetic studies [<xref ref-type="bibr" rid="B24">25</xref>] revealed that the karyotypes of <italic>Pachycondyla</italic> species are extremely variable; most karyotypes are with large chromosome numbers, (more than 11 chromosomes), while others have smaller chromosome numbers (fewer than 11 chromosomes), and the morphological characters of the chromosomes are variable. Since there are independent patterns of karyotype evolution in the <italic>Pachycondyla</italic> genome, there are several genera that should be distinct from <italic>Pachycondyla</italic> [<xref ref-type="bibr" rid="B24">25</xref>].</p></sec>
+      <sec id="sec1.5">
+        <title>1.5. Genus <italic>Bothroponera </italic></title>
+        <p>The genus <italic>Bothroponera</italic> was described by Mayr in 1862 [<xref ref-type="bibr" rid="B25">26</xref>]. The majority of myrmecologists, such as von Dalla Torre, Bingham, Ashmead, W. M. Wheeler, Bernard, Taylor et al., G. C. Wheeler and J. Wheeler, Taylor, and Dlussky and Fedoseeva [<xref ref-type="bibr" rid="B26">27</xref>&#x2013;<xref ref-type="bibr" rid="B34">35</xref>], agreed that <italic>Bothroponera</italic> is a separate genus; however, <italic>Bothroponera</italic> and <italic>Pachycondyla</italic> are closely related to each other. The characteristics that are used to distinguish the genus <italic>Bothroponera</italic> in this paper are based on descriptions of the entire group of African <italic>Bothroponera</italic> species (~40). The genus is characterized by the narrowed, convex, and medially raised clypeus. The mandibles are triangular or narrowed with 6&#x2013;9 teeth. The frontal lobes are rounded or semioval, divided by a well-developed frontal furrow. The pronotum of the worker lacks any evidence of a carina or shelf. The mesonotum is completely fused with the propodeum, and the notopropodeal suture is completely absent. The petiole is thick with a developed ventral process. The mesopleuron is not divided by an anapleural suture and is well separated from the metapleuron by the mesometapleural suture. </p></sec>
+      <sec id="sec1.6">
+        <title>1.6. Global Distribution of the Genus <italic>Bothroponera </italic></title>
+        <p>The genus <italic>Bothroponera</italic> in Africa occurs mainly in tropical and subtropical areas. The biogeographical information shows that the genus <italic>Bothroponera</italic> is present only in the Afrotropical, Oriental, and Australian Regions. There are about 92 species of <italic>Bothroponera</italic> distributed worldwide, but <italic>Bothroponera</italic> is absent from the Palearctic, Nearctic, and Neotropical Regions. The <italic>Bothroponera</italic> species are distributed as the following: Madagascar 9 taxa (<italic>Bothroponera cambouei</italic>, <italic>B. comorensis</italic>, <italic>B. masoala</italic>, <italic>B. perroti</italic>, <italic>B. perroti admista</italic>, <italic>B. planicornis</italic>, <italic>B. tavaratra</italic>, <italic>B. vazimba</italic>, and <italic>B. wasmannii</italic> revised as <italic>Pachycondyla </italic>[<xref ref-type="bibr" rid="B35">36</xref>]; Australia 16 taxa (<italic>Bothroponera excavata </italic>var. <italic>acuticostata</italic>, <italic>B. astuta</italic>, <italic>B. barbata</italic>, <italic>B. denticulata</italic>, <italic>B. dubitata</italic>, <italic>B. excavata</italic>, <italic>B. piliventris </italic>var. <italic>intermedia</italic>, <italic>B. sublevis</italic> subsp. <italic>kurandensis</italic>, <italic>B. mayri</italic>, <italic>B. sublevis</italic> var. <italic>murina</italic>, <italic>B. piliventris</italic>, <italic>B. porcata</italic>, <italic>B. piliventris </italic>subsp. <italic>regularis</italic>, <italic>B. sublaevis </italic>r. <italic>reticulata</italic>, <italic>B. sublaevis </italic>var. <italic>rubicunda</italic>, and <italic>B. sublaevis</italic>)<italic>&#x2002;</italic>[<xref ref-type="bibr" rid="B32">33</xref>]; New Guinea has five species (<italic>Bothroponera incisa</italic>, <italic>B. obesa</italic>, <italic>B. simillima</italic>, <italic>B. striata</italic>, and <italic>B. verecunda</italic>); and India has eight taxa (<italic>Bothroponera sulcata </italic>var. <italic>fossulata</italic>, <italic>B. bispinosa</italic>, <italic>B. henryi</italic>, <italic>B. leeuwenhoeki</italic>, <italic>B. rufipes</italic>, <italic>B. sulcata</italic>, <italic>B. sulcata </italic>var. <italic>sulcatotesserinoda</italic>, and <italic>B. tesseronoda</italic>). In Asia there are about 15 taxa distributed as the following: Philippines two species (<italic>Bothroponera glabripes</italic> and <italic>B. williamsi</italic>); Indonesia four species (<italic>B. insularis</italic>, <italic>B. solitaria</italic>, <italic>B. unicolor</italic>, and <italic>B. vermiculata</italic>); Borneo four taxa (<italic>B. sandakana</italic>, <italic>B. insularis </italic>var. <italic>brevior</italic>, <italic>B. tridentata</italic>, and <italic>B. tridentata </italic>r. <italic>debilior</italic>); Myanmar one species (<italic>B. rubiginosa</italic>); Sri Lanka one taxon (<italic>B. rufipes </italic>subsp. <italic>ceylonensis</italic>); West Malaysia one taxon (<italic>Bothroponera tridentata </italic>var. <italic>exasperans</italic>); Singapore one species (<italic>B. havilandi</italic>); and Vietnam one species (<italic>Bothroponera annamita</italic>) [<xref ref-type="bibr" rid="B10">10</xref>, <xref ref-type="bibr" rid="B36">37</xref>]. </p>
+        <p>In Africa there are about 40 species of <italic>Bothroponera</italic> distributed as the following: Guinea one species, Sierra Leone one species, Ghana one species, Cameroun four species, Democratic Republic of Congo four species, Congo Brazzaville four species, Angola one species, Ethiopia four species, Kenya three species, Tanzania one species, Malawi one species, Mozambique one species, Zimbabwe two species, and South Africa ten species. They are clustered in three major areas in African continent according to their complexes: eastern countries are the favorite habitat for the <italic>crassa</italic> complex, western countries are the habitat for the <italic>talpa</italic> complex, and southern countries are the main ecosystems for the <italic>cavernosa</italic> complex. The African taxa in the <italic>cavernosa</italic> complex include <italic>Bothroponera berthoudi</italic> Forel, 1901, <italic>B. cariosa</italic> Emery, 1895, <italic>B. cavernosa</italic> (Roger, 1860), <italic>B. cavernosa </italic>var<italic>. montivaga</italic> Arnold, 1947, <italic>B. granosa</italic> (Roger, 1860), <italic>B. laevissima</italic> Arnold, 1915, <italic>B</italic>. <italic>laevissima </italic>var.<italic> aspera </italic>Arnold, 1962, <italic>B. pumicosa</italic> (Roger, 1860), <italic>B. strigulosa</italic> Emery, 1895, and <italic>B. variolosa</italic> Arnold, 1947. </p>
+        <p>In this paper, the morphological description of a new species of African <italic>Bothroponera</italic> is provided. The illustrations of the head (full face) and the lateral view of the body are included. The lateral view shows the horizontal propodeal spiracle on the lateropropodeum. A taxonomic key to the species complexes of the Afrotropical <italic>Bothroponera</italic> as well as taxonomic key of the <italic>cavernosa</italic> complex species is provided along with diagnosis, comparison, distributional information, habitat, biology, and etymology of the new species.</p></sec>
+    </sec>
+    <sec id="sec2">
+      <title>2. Material and Methods</title>
+      <sec id="sec2.1">
+        <title>2.1. Specimens Collections</title>
+        <p>The two worker specimens of the new species were obtained from the Museum of Comparative Zoology, Harvard University, Cambridge, MA, USA (MCZC). The male and queen are unknown. The other museums that provided us with the African <italic>Bothroponera</italic> specimens are the following:<list><list-item><label>&#x2009;</label><p>Naturhistorisches Museum (NHMB), Basel, Switzerland.</p></list-item><list-item><label>&#x2009;</label><p>Mus&#xE9;um d&#x2019;Histoire Naturelle (MHNG), Geneva, Switzerland.</p></list-item><list-item><label>&#x2009;</label><p>Iziko South African Museum (SAM). </p></list-item><list-item><label>&#x2009;</label><p>Dr. William Mackay&#x2019;s collection (CWEM) the University of Texas at El Paso. </p></list-item><list-item><label>&#x2009;</label><p>British Natural History Museum (BMNH), London.</p></list-item><list-item><label>&#x2009;</label><p>Museum f&#xFC;r Naturkunde (ZMHU), Berlin, Germany. </p></list-item><list-item><label>&#x2009;</label><p>Museum Nationale d&#x2019;Histoire Naturelle (MNHN), Paris, France. </p></list-item><list-item><label>&#x2009;</label><p>Museo Civico di Storia Naturale (MCSN), Genova, Italy.</p></list-item><list-item><label>&#x2009;</label><p>American Museum of Natural History (AMNH), New York.</p></list-item><list-item><label>&#x2009;</label><p>Los Angeles County Museum of Natural History (LACM), California.</p></list-item></list></p>
+      </sec>
+      <sec id="sec2.2">
+        <title>2.2. Measurement Abbreviations</title>
+        <p>The specimens were examined with a Zeiss binocular microscope with an ocular micrometer. All measurements are in millimeters. <list><list-item><label>&#x2009;</label><p>Head length (HL), in full face view, the maximum length of the head excluding the mandibles, from the midpoint of the anterior clypeal margin to the midpoint of the posterior margin of the head. </p></list-item><list-item><label>&#x2009;</label><p>Head width (HW), in full face view, the maximum width of the head from the extreme side of head to the other extreme side excluding the eyes. </p></list-item><list-item><label>&#x2009;</label><p>Mandible length (ML), the distance from the mandible&#x2019;s base to the apex of the apical tooth. </p></list-item><list-item><label>&#x2009;</label><p>Eye length (EL), the maximum diameter of the eye as seen from the side. </p></list-item><list-item><label>&#x2009;</label><p>Eye Width (EW), the maximum distance of the eye from the anterior edge to the posterior edge as seen from the side.</p></list-item><list-item><label>&#x2009;</label><p>Scape length (SL), the maximum length of the scape from the proximal to the distal extremes, excluding the basal constriction. </p></list-item><list-item><label>&#x2009;</label><p>Funiculus length (FL), the measurement of the distal 11 segments of the antenna including the club and all of the funicular segments. </p></list-item><list-item><label>&#x2009;</label><p>Weber length (WL), the length in lateral view, from the anterior edge of the pronotum to the end of posterior margin of the propodeal lobes. </p></list-item><list-item><label>&#x2009;</label><p>Petiole length (PL), in lateral view, the maximum distance of the petiole from the anterior face to the posterior side excluding the helcium.</p></list-item><list-item><label>&#x2009;</label><p>Petiole width (PW), in dorsal view, the maximum side to side thickness of the petiole, generally at the posterior edge since it has the largest width.</p></list-item><list-item><label>&#x2009;</label><p>Petiole height (PH), in lateral view, the maximum length from the lower point of the sternopetiolar process, excluding the petiolar teeth, to the highest point at the apex of the petiolar node.</p></list-item></list></p>
+        <p>The following indices are used:<list><list-item><label>&#x2009;</label><p>cephalic index (CI), HW/HL &#xD7; 100,</p></list-item><list-item><label>&#x2009;</label><p>ocular index (OI), EL/HW &#xD7; 100,</p></list-item><list-item><label>&#x2009;</label><p>mandible index (MandI), ML/HL &#xD7; 100,</p></list-item><list-item><label>&#x2009;</label><p>scape index (SI), SL/HW &#xD7; 100,</p></list-item><list-item><label>&#x2009;</label><p>petiole index (PetI), PW/PL &#xD7; 100.</p></list-item></list></p>
+      </sec>
+      <sec id="sec2.3">
+        <title>2.3. Further Measurements and Descriptions</title>
+        <p>In each specimen, we measured the hair length, the total body length, the malar space length (from lower edge of the eye to the base of the mandible), and the length of the side of the head from the upper margin of the eye to the highest point of the posterior lateral corner of the head (side view). There are other characters that are taken into account including the shape of the head, eyes (large or small), pronotum, mesopleuron, propodeum, petiole, and postpetiole. The shape of the pronotal shoulder, lower margin of the pronotum, basalar sclerite, and propodeal spiracle<italic>&#x2002;</italic>are important. The entire body color including the antennae, clypeus, mandibles, and legs was described as well.</p></sec>
+      <sec id="sec2.4">
+        <title>2.4. Nomenclatural Acts</title>
+        <p>The new name contained in this paper is available under the International Code of Zoological Nomenclature (ICZN). This work and the nomenclatural acts it contains have been registered in ZooBank. Zoobank life science identifier (LSID) for this publication is urn:lsid:zoobank.org:pub:29432EB5-CF41-4FF6-BFC9-F63DD64C502E. The LSID registration and any associated information can be viewed in a web browser by adding the LSID to the prefix &#x201C;<ext-link ext-link-type="uri" xlink:href="http://zoobank.org/">http://zoobank.org/</ext-link>.&#x201D;</p></sec>
+    </sec>
+    <sec id="sec3">
+      <title>3. Results and Discussion</title>
+      <p>The following are the diagnosis of the worker, description, and measurements of the new species, <italic>Bothroponera </italic><italic>umgodikulula n </italic> sp. (Figures <xref ref-type="fig" rid="fig1">1</xref> and <xref ref-type="fig" rid="fig2">2</xref>).</p>
+      <fig id="fig1">
+        <label>Figure 1</label>
+        <caption>
+          <p>Side view of the holotype worker of <italic>B. umgodikulula</italic>.</p></caption>
+        <graphic xlink:href="917847.fig.001.jpeg"/></fig>
+      <fig id="fig2">
+        <label>Figure 2</label>
+        <caption>
+          <p>Full face view of the holotype worker of <italic>B. umgodikulula</italic>. </p></caption>
+        <graphic xlink:href="917847.fig.002.jpeg"/></fig>
+      <sec id="sec3.1">
+        <title>3.1. Diagnosis of the Worker</title>
+        <p>The main distinguishable characters of <italic>B. umgodikulula </italic>are the lack of sculpture on the tergum of fourth abdominal segment (second gastral segment), which is mostly smooth and glossy, and the horizontal propodeal spiracle. The worker is also characterized by the large total length, which is 14.80&#x2013;15.65&#x2009;mm. The head is subquadrate (CI 95.00&#x2013;95.16). The clypeus is convex, &#x201C;v&#x201D; shaped, and covered with striae, except for the medial area. The anterior medial area is raised and coarsely punctate on the sides, and smooth and glossy in the middle, but an actual carina is absent. The mandibles are triangular, shorter than the head length (MandI 50.00&#x2013;54.83), smooth and glossy with scattered elongated coarse punctures and about 7 teeth. The scape reaches or extends slightly past the posterior border of the head (SI 81.35&#x2013;82.45). The compound eyes are relatively large (OI 15.25&#x2013;15.78). The lower margins of the frontal lobes are smooth; the upper part is punctate. The maximal frontal lobe width is 1.10&#x2013;1.20&#x2009;mm. The head is subquadrate and coarsely foveolate. The length of the malar space on the side of the head is (0.65&#x2013;0.70&#x2009;mm); the length from the upper edge of the eye to the edge of posterior lobe is 1.35&#x2013;1.50&#x2009;mm.</p>
+        <p>The pronotum, dorsum of the mesonotum, and dorsum of the propodeum are coarsely foveolate and rough. The dorsum of the petiole and postpetiole are coarsely foveolae and punctate. The mesopleuron and lateropropodeum are coarsely grooved and covered with striae, foveolae, and punctures. The propodeal spiracle is unusual in being nearly horizontal. The pronotal shoulder is rounded. The antennae, legs, and posterior edge of each gastral tergite are shiny. The petiole is rounded and slightly narrowed anteriorly, while it is slightly concave posteriorly (PetI 115.38&#x2013;125.92). </p>
+        <p>The entire head, pronotum, mesonotum, propodeum, petiole, and postpetiole are covered with short (0.03&#x2013;0.10&#x2009;mm)<italic>&#x2002;</italic>fine golden hairs. The ventral side of the postpetiole and fourth-seventh gastral segments are covered with relatively long (0.20&#x2013;0.25&#x2009;mm)<italic>&#x2002;</italic>golden suberect hairs. The hairs on underside of the head range from 0.25 to 0.50&#x2009;mm in length.</p>
+        <p>The head, pronotum, mesonotum, mesopleuron, propodeum, petiole, postpetiole, and entire gaster are black. The legs, antennae, mandibles are red. The clypeus is dark brown.</p></sec>
+      <sec id="sec3.2">
+        <title>3.2. Description</title>
+        <sec id="sec3.2.1">
+          <title>3.2.1. Worker Measurements and Indices (<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M1"><mml:mi>n</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn></mml:math></inline-formula>)</title>
+          <p>HL 3.00&#x2013;3.10, HW 2.85&#x2013;2.95, ML 1.50&#x2013;1.70, EW 0.40&#x2013;0.45, EL 0.45, SL 2.35&#x2013;2.40, FL 3.65&#x2013;3.75, WL 4.20, WPL 5.00&#x2013;5.50, PL 1.30&#x2212;1.35, PW 1.50&#x2212;1.70, PH 1.75&#x2013;1.80, CI 95.00&#x2013;95.16, OI 15.78&#x2013;15.25, MandI 50.00&#x2013;54.83, SI 82.45&#x2013;81.35, and PetI 115.38&#x2013;125.92.</p></sec>
+        <sec id="sec3.2.2">
+          <title>3.2.2. Worker Characteristics</title>
+          <p>Head excluding mandibles subquadrate with rounded sides; mandibles smooth, glossy with scattered elongated coarse punctures and fine longitudinal striolae, with about 7 teeth, mandible shorter than head length; clypeus covered with longitudinal striae (except medial area), medial area raised, without forming carina, disc smooth and glossy, sides coarsely punctate; eyes relatively large; scape reaches or extends slightly past posterior border of head; lower lateral margins of frontal lobes smooth, upper part punctate; dorsum of head mostly foveolate; pronotum, mesonotum, propodeum rough, and coarsely foveolate; mesopleuron, lateropropodeum covered with foveolae, with punctures, striae, and coarse grooves; pronotal shoulder rounded; basalar sclerite nearly oval; propodeal spiracle nearly horizontal; antennae, legs shiny; petiole rounded, slightly narrowed anteriorly, slightly concave posteriorly; dorsum and sides of petiole, postpetiole (first gastral segment) coarsely foveolate, punctate; second gastral segment to tip of gaster mostly smooth, punctate, with weak markings of foveolae; entire head, pronotum, mesonotum, propodeum, petiole, and postpetiole covered with short golden erect hairs; hairs on underside of head long; head, pronotum, mesonotum, mesopleuron, propodeum, petiole, postpetiole, entire gaster black; legs, antennae, and mandibles red; clypeus reddish brown.</p></sec>
+      </sec>
+      <sec id="sec3.3">
+        <title>3.3. Comparison</title>
+        <p>The new species is a member of the African <italic>cavernosa</italic> species complex of the genus <italic>Bothroponera</italic>, in which the metatibial gland on the ventral tibial hind leg is absent and the clypeus is convex with &#x201C;v&#x201D; shaped anterior margin. <italic>Bothroponera umgodikulula </italic>is easily recognized by the horizontal propodeal spiracle (parallel to the posteropropodeum in the remainder of the <italic>Bothroponera</italic> species). In addition, the smooth and glossy 4th abdominal segment (second gastral segment) of <italic>B. umgodikulula</italic> is different from the sculptured segments of the similar <italic>B. cavernosa</italic> and <italic>B. cavernosa </italic>var.<italic> montivaga</italic>. The 4th abdominal segment of <italic>B. cavernosa</italic> is rough, moderately shiny with few scattered hairs and fine poorly defined striae, while that of <italic>B. cavernosa </italic>var.<italic> montivaga</italic> is somewhat smooth and moderately shiny (less so than <italic>B. umgodikulula</italic>) with a few scattered punctures. The other taxa that can be confused with <italic>B. umgodikulula</italic> are <italic>B. laevissima</italic> and <italic>B. laevissima</italic> var. <italic>aspera</italic> because they both have smooth and glossy 4th abdominal segments, but it is easy to recognize them by the body surface. Most surfaces of <italic>B. umgodikulula </italic>are coarsely foveolate whereas they are smooth and shiny in <italic>B. laevissima</italic> and with a few punctures in <italic>B. laevissima</italic> var. <italic>aspera</italic>. The new species <italic>B. umgodikulula</italic> is also characterized by the larger body size (total length 14.80&#x2013;15.65&#x2009;mm) compared to <italic>B. cavernosa</italic> (11.90&#x2009;mm) and <italic>B. cavernosa </italic>var.<italic> montivaga</italic> (12.20&#x2013;12.65&#x2009;mm). In fact, the new species is the largest species among the other <italic>cavernosa</italic> complex species (<italic>B. granosa</italic> 13.75&#x2013;14.50&#x2009;mm, <italic>B. variolosa</italic> 12.15&#x2013;12.75&#x2009;mm, <italic>B. strigulosa</italic> 12.20&#x2009;mm, <italic>B. laevissima</italic> 11.80&#x2212;13.00&#x2009;mm, <italic>B. laevissima </italic>var.<italic> aspera</italic> 11.70&#x2013;12. 70&#x2009;mm, <italic>B. pumicosa</italic> 11.00&#x2013;11.65&#x2009;mm, <italic>B. cariosa</italic> 11.50&#x2009;mm, and <italic>B. berthoudi</italic> 9.60&#x2009;mm). <italic>Bothroponera <italic>&#x2002;</italic>cavernosa </italic>var.<italic> montivaga</italic> and <italic>B. cavernosa</italic> share most of the characteristics with the new species except the propodeal spiracle, which is obliquely vertical in <italic>B. cavernosa </italic>var.<italic> montivaga</italic> and <italic>B. cavernosa</italic>, while it is horizontal in <italic>B. umgodikulula</italic>. The new species <italic>B. umgodikulula</italic> is the only species among the <italic>cavernosa</italic> complex species that has a horizontal propodeal spiracle. The anterior medial margin of the clypeus is &#x201C;v&#x201D; shaped in <italic>B. umgodikulula </italic>similarly to that of <italic>B. granosa</italic>, <italic>B. cavernosa</italic>, <italic>B. cavernosa </italic>var.<italic> montivaga,</italic> and <italic>B. laevissima </italic>var.<italic> aspera</italic>. Conversely, the anterior medial margin of the clypeus is &#x201C;u&#x201D; shaped in <italic>B. cariosa</italic>, <italic>B. strigulosa</italic>, <italic>B. pumicosa</italic>, <italic>B. laevissima</italic>, <italic>B. berthoudi</italic>, and <italic>B. variolosa</italic>. The clypeus has a sharp carina on the raised area in <italic>B. granosa</italic>; it is partially carinated in <italic>B. cavernosa</italic> and <italic>B. cavernosa var. montivaga</italic>, and the lower parts are smooth. The anterior medial raised area of <italic>B. umgodikulula</italic> is completely smooth (lacking the carina), and shiny, but sculptured and punctate on sides of the medial raised area. The scape of <italic>B</italic>. <italic>umgodikulula</italic> reaches or slightly exceeds the posterior lateral corner of the head, while it is slightly shorter in <italic>B. cavernosa</italic> var. <italic>montivaga</italic> and slightly longer in <italic>B. cavernosa</italic>.</p></sec>
+      <sec id="sec3.4">
+        <title>3.4. Material Examined</title>
+        <p>Type series, South Africa: Eastern Cape, Bulhoek, Klaver-Clanw., Bulhoek at 32&#xB0;10&#x2032;0&#x2032;&#x2032; S; 26&#xB0;49&#x2032;0&#x2032;&#x2032;E, Mus. Expd. October 1950, (2&#x2009;w, holotype (MCZC) and paratype (SAM) no. C005835) <italic>Bothroponera cavernosa</italic> Roger, 1860, F. W. G., SAM-HYM SAM. </p></sec>
+      <sec id="sec3.5">
+        <title>3.5. Distribution</title>
+        <p>The species is known only from Bulhoek (Whittlesea), Eastern Cape, South Africa.</p></sec>
+      <sec id="sec3.6">
+        <title>3.6. Biology and Habitat</title>
+        <p>The new species (<italic>Bothroponera umgodikulula</italic>) is collected from the Bulhoek area in South Africa. Bulhoek is the former name of Whittlesea in the Eastern Province of South Africa. The average elevation of the area is about 1,060&#x2009;m. The main vegetation in Whittlesea is grassland [<xref ref-type="bibr" rid="B37">38</xref>, <xref ref-type="bibr" rid="B38">39</xref>]. The Eastern Cape Province includes about six different types of biomes: fynbos, savanna, thicket, grassland, nama karoo, and forest biomes. The area is characterized by different habitats that results in high biodiversity. In fact, most of the <italic>cavernosa</italic> complex species were found in South Africa especially in the Cape Provinces. There are at least 24 taxa that belong to <italic>Pachycondyla</italic> and <italic>Bothroponera</italic> collected from South Africa, including <italic>Bothroponera berthoudi</italic>; <italic>B. cavernosa</italic>; <italic>B. cavernosa </italic>var.<italic> montivaga</italic>; <italic>B. granosa</italic>; <italic>B. kruegeri</italic>; <italic>B. laevissima </italic>var.<italic> aspera</italic>; <italic>B. pumicosa</italic>; <italic>B. strigulosa</italic>; <italic>B. variolosa</italic>; <italic>Pachycondyla aenigmatica</italic>; <italic>P. caffraria</italic>; <italic>P. elisae rotundata</italic>; <italic>P. fossigera</italic>; <italic>P. hartwigi</italic>; <italic>P. havilandi</italic>; <italic>P. havilandi fochi</italic>; <italic>P. havilandi godfreyi</italic>; <italic>P. havilandi marleyi</italic>; <italic>P. hottentota</italic>; <italic>P. peringueyi</italic>; <italic>P. peringueyi saldanhae</italic>; <italic>P. tarsata</italic>; <italic>P. wroughtonii</italic> and <italic>P. wroughtonii crudelis</italic>. This high diversity is not only because of the extensive studies that have been conducted in South Africa, but it is also because of the numerous habitats and ecosystems that characterize the country. </p></sec>
+      <sec id="sec3.7">
+        <title>3.7. Etymology</title>
+        <p>The name of the new species of African <italic>Bothroponera</italic> &#x201C;<italic>umgodikulula</italic>&#x201D; comes from isiZulu, one of the major South African languages. The word &#x201C;umgodi&#x201D; means hole, and &#x201C;kulula&#x201D; means level, to express that this species has a hole for respiration that is situated horizontally on the lateropropodeum.</p></sec>
+      <sec id="sec3.8">
+        <title>3.8. Key to the Afrotropical <italic>Bothroponera</italic> Complexes</title>
+        <p>
+          <list>
+            <list-item>
+              <label>(1)</label>
+              <p> Metatibial gland present; scape extends at least first funicular segment past posterior lateral corner of head; lower margin of anterior medial area of clypeus convex, straight, or slightly concave; eyes range from small to large (EW 0.05&#x2013;0.45, EL 0.05&#x2013;0.70)  &#x2026;  <italic>crassa</italic> complex.</p></list-item>
+            <list-item>
+              <label>&#x2013;</label>
+              <p> Metatibial gland absent; scape shorter, barely reaches posterior lateral corner of head, or extends past less than length of first funicular segment  &#x2026;  2.</p></list-item>
+            <list-item>
+              <label>(2)</label>
+              <p> Anterior margin of anterior medial area of clypeus convex, &#x201C;u&#x201D; or &#x201C;v&#x201D; shaped; eyes relatively large (EW and EL 0.30&#x2013;0.45&#x2009;mm)  &#x2026;  <italic>cavernosa</italic> complex.</p></list-item>
+            <list-item>
+              <label>&#x2013;</label>
+              <p> Anterior margin of clypeus straight, or slightly concave, or slightly convex but not &#x201C;v&#x201D; or &#x201C;u&#x201D; shaped; eyes relatively small (EW and EL 0.15&#x2013;0.40&#x2009;mm) &#x2026; <italic>talpa</italic> complex.</p></list-item>
+          </list></p>
+      </sec>
+      <sec id="sec3.9">
+        <title>3.9. Preliminary Key to the Afrotropical <italic>Cavernosa</italic> Complex Species of the Genus <italic>Bothroponera </italic></title>
+        <p>
+          <list>
+            <list-item>
+              <label>(1)</label>
+              <p> Scapes relatively short, barely reaching, or slightly exceeding posterior lateral corner of head, (SI 78.00&#x2013;87.17); head subquadrate or suborbicular (CI 78.18&#x2013;100); clypeus convex, anterior border &#x201C;v&#x201D; or &#x201C;u&#x201D; shaped, and sharp medial longitudinal carina present on clypeus, or partially carinated, or lacking carina; mandibles with 7-8 teeth without striae (MI 48.27&#x2013;59.61); body sculptured with foveolae or punctae; fourth abdominal segment (second gastral segment) smooth, slightly rough, or sculptured; hairs length ranges from 0.03 to 0.55&#x2009;mm &#x2026; 2.</p></list-item>
+            <list-item>
+              <label>&#x2013;</label>
+              <p> Scapes slightly longer, extending past posterior lateral corner of head (SI 77.77); head suborbicular, cephalic index 90.00; clypeus convex, anterior border &#x201C;v&#x201D; shaped with partial longitudinal carina on the upper part; mandibles with 7 teeth, covered with fine striae (MI 48.33); body strongly sculptured by foveolae; fourth abdominal segment slightly rough with fine hairs scattered on dorsum; hairs lengths ranges from 0.03&#x2013;0.20&#x2009;mm &#x2026; <italic>cavernosa</italic>.</p></list-item>
+            <list-item>
+              <label>(2)</label>
+              <p> Hairs on scape short, 1/2-1/3 greatest diameter of scape (0.07&#x2013;0.17&#x2009;mm); hairs on posterior tibia 0.15&#x2013;0.30&#x2009;mm, with few to many suberect to erect hairs throughout length; few hairs on mandibles (fewer than 0.20&#x2009;mm) with about 7 teeth, at least in part glossy, shiny, and possibly with coarse punctures or with few fine striae, mandibular index (48.27&#x2013;59.61); anterior border of clypeus &#x201C;v&#x201D; or &#x201C;u&#x201D; shaped, lacking carina, or partially carinated; fourth abdominal segment smooth, or slightly rough, or sculptured &#x2026; 3.</p></list-item>
+            <list-item>
+              <label>&#x2013;</label>
+              <p> Hairs on scape long, at least as long as the greatest diameter of scape (0.50&#x2013;0.55&#x2009;mm); hairs on posterior tibia about 0.30&#x2013;0.35&#x2009;mm; mandibles hairy (~0.20&#x2009;mm) with about 8 teeth, mandibular index 50.90&#x2013;52.00; anterior border of clypeus &#x201C;u&#x201D; shaped, anterior medial area raised to form partial carina on upper part; fourth abdominal segment sculptured, covered with shallow foveolae &#x2026; <italic>pumicosa</italic>.</p></list-item>
+            <list-item>
+              <label>(3)</label>
+              <p> Entire body smooth, shiny; ocular index 14.00&#x2013;15.09 &#x2026; <italic>laevissima</italic>.</p></list-item>
+            <list-item>
+              <label>&#x2013;</label>
+              <p> Entire body coarsely sculptured with foveolae or punctae, ocular index 15.25&#x2013;21.42 &#x2026; 4.</p></list-item>
+            <list-item>
+              <label>(4)</label>
+              <p> Propodeal spiracle nearly horizontal; anterior border of clypeus &#x201C;v&#x201D; shaped with longitudinal raised medial area, but lacking carina; head subquadrate (CI 95.00&#x2013;95.16); fourth abdominal segment smooth, glossy &#x2026; <italic>umgodikulula</italic>.</p></list-item>
+            <list-item>
+              <label>&#x2013;</label>
+              <p> Propodeal spiracle nearly vertical; anterior border of clypeus &#x201C;v&#x201D; or &#x201C;u&#x201D; shaped, sharp carina present on clypeus, partially carinated, or lacking carina; head subquadrate or suborbicular (CI 82.75&#x2013;100); fourth abdominal segment slightly rough or sculptured &#x2026; 5. </p></list-item>
+            <list-item>
+              <label>(5)</label>
+              <p> Body with sparse punctures, moderately shiny, black; anterior border of clypeus &#x201C;v&#x201D; shaped, lacking carina; head suborbicular (CI 90.19&#x2013;90.90); fourth abdominal segment smooth shiny &#x2026; <italic>laevissima </italic>var.<italic> aspera</italic>.</p></list-item>
+            <list-item>
+              <label>&#x2013;</label>
+              <p> Body sculptured foveolae or punctate, black, brownish, or brownish dark, brown or reddish brown appendages; anterior border of clypeus &#x201C;u&#x201D; or &#x201C;v&#x201D; shaped, carina present, lacking carina, or partially carinated; head suborbicular or subquadrate; fourth abdominal segment slightly roughened or sculptured &#x2026; 6.</p></list-item>
+            <list-item>
+              <label>(6)</label>
+              <p> Anterior border of clypeus &#x201C;u&#x201D; shaped with or without carina; scape reaching or slightly surpassing posterior lateral corner of head &#x2026; 7.</p></list-item>
+            <list-item>
+              <label>&#x2013;</label>
+              <p> Anterior border of clypeus &#x201C;v&#x201D; shaped with at least partial carina; scape not reaching posterior lateral corner of head &#x2026; 8.</p></list-item>
+            <list-item>
+              <label>(7)</label>
+              <p> Mandible with scattered coarse punctures that unite to some degree, forming poorly defined rugulae, mandible shorter than head length (MI 59.61); fine carina present on anterior medial raised area of clypeus; posterior border of petiolar node (seen from above) with depression medially; fourth abdominal segment sculptured, covered with shallow foveolae &#x2026; <italic>cariosa</italic>.</p></list-item>
+            <list-item>
+              <label>&#x2013;</label>
+              <p> Mandible with scattered isolated punctures that do not unite, completely smooth and glossy between punctures with little evidence of striae or rugulae, mandible shorter than head length (MI 48.27&#x2013;56.45); anterior medial raised area of clypeus with or without sharp carina or lacking carina; posterior border of petiolar node with little evidence of depression; fourth abdominal segment (second gastral segment) slightly roughened or sculptured &#x2026; 9.</p></list-item>
+            <list-item>
+              <label>(8)</label>
+              <p> Eyes relatively smaller (OI 16.66&#x2013;18.18); clypeus with sharp longitudinal carina on anterior border; petiolar index (116.66&#x2013;123.07); fourth abdominal segment (second gastral segment) sculptured, covered with shallow foveolae, striae &#x2026; <italic>granosa</italic>.</p></list-item>
+            <list-item>
+              <label>&#x2013;</label>
+              <p> Eyes relatively larger (OI 18.36&#x2013;18.75); partial carina present on anterior border of clypeus; petiolar index (130.00); fourth abdominal segment smooth with few scattered punctures &#x2026; <italic>cavernosa </italic>var.<italic> montivaga</italic>.</p></list-item>
+            <list-item>
+              <label>(9)</label>
+              <p>  Erect hairs on scape short (most less than 0.10&#x2009;mm in length, few up to 0.20&#x2009;mm), scape not reaching posterior lateral corner of head (SI 78.57); erect golden hairs on entire dorsum of body (0.07&#x2013;0.13&#x2009;mm, a few up to 0.16&#x2009;mm), hairs on petiole (0.15&#x2013;0.18&#x2009;mm); clypeus forming sharp medial carina on the medial raised area; mandibular index (54.00) &#x2026; <italic>strigulosa</italic>.</p></list-item>
+            <list-item>
+              <label>&#x2013;</label>
+              <p>  Erect hairs on scape short (0.07&#x2013;0.10&#x2009;mm), scape reaching or nearly reaching posterior lateral corner of head (SI 82.22&#x2013;87.17); moderately short erect golden hairs on mesosoma (most over 0.06&#x2009;mm, few over 0.25&#x2009;mm in length), but longer (most over 0.25&#x2009;mm) suberect hairs on petiole and postpetiole (0.25&#x2009;mm); clypeal medial area not forming carina (smooth and rounded); mandibular index (55.10&#x2013;55.55) &#x2026; <italic>variolosa </italic>and <italic>berthoudi</italic>.</p></list-item>
+          </list></p>
+      </sec></sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to thank the curators and museums who provided Afrotropical ant specimens including Dr. Claire Villemant (MNHN), Dr. Bernhard Merz (MHNG), Drs. Stefan Cover, Philip Perkins, Jack Boyle, and Charles Whittemore Farnum (MCZC), Drs. Frank Koch and Viola Richter (ZMHU), Drs. Roberto Poggi, Giuliano Doria, and Maria Tavano (MCSN), Drs. Isabelle Z&#xFC;rcher-Pfander, and Daniel Burckhardt (NHMB), Drs. Gavin Broad and Suzanne Ryder (BMNH), Drs. James Carpenter and Christine LeBeau (AMNH), Drs. Weiping Xie and Laura McGover (LACM), and Dr. Dawn Larsen (SAM). Special thanks are due to Dr. Gary Alpert who offered to take photos of the <italic>Bothroponera</italic> species and allowed the authors lodging during the study period at the Museum of Comparative Zoology. Dr. Alain Dejean provided several publications on African ants; Dr. Hamish Robertson provided his ant publication website; Dr. Brigitte Braschler offered useful information about African ant richness and biodiversity, and Dr. Nigel Worden, from the University of Cape Town, offered historical information about South Africa. Thanks are also due to Dr. Barry Bolton, who suggested useful comments for ant character descriptions and identifications. An anonymous reviewer made important suggestions to improve the paper, for which the authors are grateful. The authors also thank Dr. Robert Kirken, Chairman of the Department of Biological Sciences of the University of Texas at El Paso, who facilitated procedures to borrow specimens from SAM, Dr. Elizabeth Walsh, Ph.D. advisor and the doctoral committee members Dr. Carl Lieb, Dr. Eli Greenbaum, Dr. Michael Moody, and Dr. Mahesh Narayan, as well as Dr. Shawn Dash and Dr. Jerry Johnson, for assistance and useful suggestions. This research was supported by Grant no. G12MD007592 from the National Institutes on Minority Health and Health Disparities (NIMHD), a component of the National Institutes of Health (NIH), and also supported by the Libyan Ministry of Higher Education, Libyan-North American Scholarship Program, and Canadian Bureau for International Education. This paper fulfills one of the requirements for the Doctor of Philosophy degree in Ecology and Evolutionary Biology at the University of Texas at El Paso.</p></ack>
+    <ref-list>
+      <ref id="B1" content-type="book">
+        <label>1</label>
+        <nlm-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>H&#xF6;lldobler</surname>
+              <given-names>B.</given-names></name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>E. O.</given-names></name>
+          </person-group>
+          <source>
+            <italic>The Ants</italic></source>
+          <year>1990</year>
+          <publisher-loc>Cambridge, Mass, USA</publisher-loc>
+          <publisher-name>The Belknap Press of Harvard University Press</publisher-name></nlm-citation>
+      </ref>
+      <ref id="B2" content-type="article">
+        <label>2</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robertson</surname>
+              <given-names>H. G.</given-names></name>
+          </person-group>
+          <article-title>Afrotropical ants (Hymenoptera: Formicidae): taxonomic progress and estimation of species richness</article-title>
+          <source>
+            <italic>Journal of Hymenoptera Research</italic></source>
+          <year>2000</year>
+          <volume>9</volume>
+          <issue>1</issue>
+          <fpage>71</fpage>
+          <lpage>84</lpage></nlm-citation>
+      </ref>
+      <ref id="B3" content-type="article">
+        <label>3</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>French</surname>
+              <given-names>K.</given-names></name>
+            <name>
+              <surname>Major</surname>
+              <given-names>R. E.</given-names></name>
+          </person-group>
+          <article-title>Effect of an exotic <italic>Acacia</italic> (Fabaceae) on ant assemblages in South African fynbos</article-title>
+          <source>
+            <italic>Austral Ecology</italic></source>
+          <year>2001</year>
+          <volume>26</volume>
+          <issue>4</issue>
+          <fpage>303</fpage>
+          <lpage>310</lpage>
+          <pub-id pub-id-type="other">2-s2.0-0347336988</pub-id></nlm-citation>
+      </ref>
+      <ref id="B4" content-type="book">
+        <label>4</label>
+        <nlm-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grimaldi</surname>
+              <given-names>D.</given-names></name>
+            <name>
+              <surname>Engel</surname>
+              <given-names>M. S.</given-names></name>
+          </person-group>
+          <source>
+            <italic>Evolution of the Insects</italic></source>
+          <year>2005</year>
+          <publisher-loc>Cambridge, Mass, USA</publisher-loc>
+          <publisher-name>Cambridge University Press</publisher-name></nlm-citation>
+      </ref>
+      <ref id="B5" content-type="article">
+        <label>5</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pringle</surname>
+              <given-names>R. M.</given-names></name>
+            <name>
+              <surname>Doak</surname>
+              <given-names>D. F.</given-names></name>
+            <name>
+              <surname>Brody</surname>
+              <given-names>A. K.</given-names></name>
+            <name>
+              <surname>Jocqu&#xE9;</surname>
+              <given-names>R.</given-names></name>
+            <name>
+              <surname>Palmer</surname>
+              <given-names>T. M.</given-names></name>
+          </person-group>
+          <article-title>Spatial pattern enhances ecosystem functioning in an African savanna</article-title>
+          <source>
+            <italic>PLoS Biology</italic></source>
+          <year>2010</year>
+          <volume>8</volume>
+          <issue>5</issue>
+          <pub-id pub-id-type="publisher-id">e1000377</pub-id>
+          <pub-id pub-id-type="other">2-s2.0-77952950029</pub-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pbio.1000377</pub-id></nlm-citation>
+      </ref>
+      <ref id="B6" content-type="incollection">
+        <label>6</label>
+        <nlm-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ward</surname>
+              <given-names>P. S.</given-names></name>
+          </person-group>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Lori</surname>
+              <given-names>L.</given-names></name>
+            <name>
+              <surname>Parr</surname>
+              <given-names>C. L.</given-names></name>
+            <name>
+              <surname>Abbott</surname>
+              <given-names>K. L.</given-names></name>
+          </person-group>
+          <article-title>Taxonomy, phylogenetics,  and evolution</article-title>
+          <source>
+            <italic>Ant Ecology</italic></source>
+          <year>2010</year>
+          <supplement>chapter 1</supplement>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <publisher-name>Oxford University Press</publisher-name></nlm-citation>
+      </ref>
+      <ref id="B7" content-type="article">
+        <label>7</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Farwig</surname>
+              <given-names>N.</given-names></name>
+            <name>
+              <surname>Berens</surname>
+              <given-names>D. G.</given-names></name>
+          </person-group>
+          <article-title>Imagine a world without seed dispersers: a review of threats, consequences and future directions</article-title>
+          <source>
+            <italic>Basic and Applied Ecology</italic></source>
+          <year>2012</year>
+          <volume>13</volume>
+          <issue>2</issue>
+          <fpage>109</fpage>
+          <lpage>115</lpage>
+          <pub-id pub-id-type="other">2-s2.0-84860566340</pub-id>
+          <pub-id pub-id-type="doi">10.1016/j.baae.2012.02.006</pub-id></nlm-citation>
+      </ref>
+      <ref id="B8" content-type="article">
+        <label>8</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodriguez-Cabal</surname>
+              <given-names>M. A.</given-names></name>
+            <name>
+              <surname>Stuble</surname>
+              <given-names>K. L.</given-names></name>
+            <name>
+              <surname>Gu&#xE9;nard</surname>
+              <given-names>B.</given-names></name>
+            <name>
+              <surname>Dunn</surname>
+              <given-names>R. R.</given-names></name>
+            <name>
+              <surname>Sanders</surname>
+              <given-names>N. J.</given-names></name>
+          </person-group>
+          <article-title>Disruption of ant-seed dispersal mutualisms by the invasive Asian needle ant (<italic>Pachycondyla chinensis</italic>)</article-title>
+          <source>
+            <italic>Biological Invasions</italic></source>
+          <year>2012</year>
+          <volume>14</volume>
+          <issue>3</issue>
+          <fpage>557</fpage>
+          <lpage>565</lpage>
+          <pub-id pub-id-type="other">2-s2.0-84858002953</pub-id>
+          <pub-id pub-id-type="doi">10.1007/s10530-011-0097-5</pub-id></nlm-citation>
+      </ref>
+      <ref id="B9" content-type="article">
+        <label>9</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Way</surname>
+              <given-names>M. J.</given-names></name>
+            <name>
+              <surname>Khoo</surname>
+              <given-names>K. C.</given-names></name>
+          </person-group>
+          <article-title>Role of ants in pest management</article-title>
+          <source>
+            <italic>Annual Review of Entomology</italic></source>
+          <year>1992</year>
+          <volume>37</volume>
+          <fpage>479</fpage>
+          <lpage>503</lpage>
+          <pub-id pub-id-type="other">2-s2.0-0027019186</pub-id></nlm-citation>
+      </ref>
+      <ref id="B10" content-type="misc">
+        <label>10</label>
+        <nlm-citation publication-type="other">
+          <comment>
+            <ext-link ext-link-type="url" xlink:href="http://www.antweb.org/">http://www.antweb.org/</ext-link></comment>
+        </nlm-citation></ref>
+      <ref id="B11" content-type="article">
+        <label>11</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Belshaw</surname>
+              <given-names>R.</given-names></name>
+            <name>
+              <surname>Bolton</surname>
+              <given-names>B.</given-names></name>
+          </person-group>
+          <article-title>A survey of the leaf litter ant fauna of Ghana, West Africa (Hymenoptera: Formicidae)</article-title>
+          <source>
+            <italic>Journal of Hymenoptera Research</italic></source>
+          <year>1994</year>
+          <volume>3</volume>
+          <fpage>5</fpage>
+          <lpage>16</lpage></nlm-citation>
+      </ref>
+      <ref id="B12" content-type="article">
+        <label>12</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lindsey</surname>
+              <given-names>P. A.</given-names></name>
+            <name>
+              <surname>Skinner</surname>
+              <given-names>J. D.</given-names></name>
+          </person-group>
+          <article-title>Ant composition and activity patterns as determined by pitfall trapping and other methods in three habitats in the semi-arid Karoo</article-title>
+          <source>
+            <italic>Journal of Arid Environments</italic></source>
+          <year>2001</year>
+          <volume>48</volume>
+          <issue>4</issue>
+          <fpage>551</fpage>
+          <lpage>568</lpage>
+          <pub-id pub-id-type="other">2-s2.0-0034865086</pub-id>
+          <pub-id pub-id-type="doi">10.1006/jare.2000.0764</pub-id></nlm-citation>
+      </ref>
+      <ref id="B13" content-type="article">
+        <label>13</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parr</surname>
+              <given-names>C. T.</given-names></name>
+            <name>
+              <surname>Chown</surname>
+              <given-names>S. L.</given-names></name>
+          </person-group>
+          <article-title>Inventory and bioindicator sampling: testing pitfall and winkler methods with ants in a South African savanna</article-title>
+          <source>
+            <italic>Journal of Insect Conservation</italic></source>
+          <year>2001</year>
+          <volume>5</volume>
+          <issue>1</issue>
+          <fpage>27</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="other">2-s2.0-0034990702</pub-id>
+          <pub-id pub-id-type="doi">10.1023/A:1011311418962</pub-id></nlm-citation>
+      </ref>
+      <ref id="B14" content-type="article">
+        <label>14</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fisher</surname>
+              <given-names>B. L.</given-names></name>
+          </person-group>
+          <article-title>Diversity patterns of ants (Hymenoptera: Formicidae) along an elevational gradient on Monts Doudou in southwestern Gabon. In: Monts Doudou, Gabon: A Floral and Faunal Inventory with Reference to Elevational Variation</article-title>
+          <source>
+            <italic>California Academy of Sciences</italic></source>
+          <year>2004</year>
+          <volume>28</volume>
+          <fpage>269</fpage>
+          <lpage>286</lpage></nlm-citation>
+      </ref>
+      <ref id="B15" content-type="article">
+        <label>15</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yanoviak</surname>
+              <given-names>S. P.</given-names></name>
+            <name>
+              <surname>Fisher</surname>
+              <given-names>B. L.</given-names></name>
+            <name>
+              <surname>Alonso</surname>
+              <given-names>A.</given-names></name>
+          </person-group>
+          <article-title>Arboreal ant diversity (Hymenoptera: Formicidae) in a central African forest</article-title>
+          <source>
+            <italic>African Journal of Ecology</italic></source>
+          <year>2008</year>
+          <volume>46</volume>
+          <issue>1</issue>
+          <fpage>60</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="other">2-s2.0-38849134048</pub-id>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2028.2007.00810.x</pub-id></nlm-citation>
+      </ref>
+      <ref id="B16" content-type="article">
+        <label>16</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Braschler</surname>
+              <given-names>B.</given-names></name>
+            <name>
+              <surname>Chown</surname>
+              <given-names>S. L.</given-names></name>
+            <name>
+              <surname>Gaston</surname>
+              <given-names>K. J.</given-names></name>
+          </person-group>
+          <article-title>The Fynbos and Succulent Karoo biomes do not have exceptional local ant richness</article-title>
+          <source>
+            <italic>PLoS ONE</italic></source>
+          <year>2012</year>
+          <volume>7</volume>
+          <issue>3</issue>
+          <pub-id pub-id-type="other">2-s2.0-84857715590</pub-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0031463</pub-id>
+          <pub-id pub-id-type="publisher-id">e31463</pub-id></nlm-citation>
+      </ref>
+      <ref id="B17" content-type="article">
+        <label>17</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schoeman</surname>
+              <given-names>C. S.</given-names></name>
+            <name>
+              <surname>Foord</surname>
+              <given-names>S. H.</given-names></name>
+          </person-group>
+          <article-title>A checklist of epigaeic ants (Hymenoptera: Formicidae) from the Marakele National Park, Limpopo, South Africa</article-title>
+          <source>
+            <italic>Koedoe</italic></source>
+          <year>2012</year>
+          <volume>54</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="other">2-s2.0-84856796231</pub-id>
+          <pub-id pub-id-type="doi">10.4102/koedoe.v54i1.1030</pub-id></nlm-citation>
+      </ref>
+      <ref id="B39" content-type="article">
+        <label>18</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hita Garcia</surname>
+              <given-names>F.</given-names></name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>G.</given-names></name>
+            <name>
+              <surname>Peters</surname>
+              <given-names>M. K.</given-names></name>
+            <name>
+              <surname>Snelling</surname>
+              <given-names>R. R.</given-names></name>
+            <name>
+              <surname>W&#xE4;gele</surname>
+              <given-names>J. W.</given-names></name>
+          </person-group>
+          <article-title>A preliminary checklist of the ants (Hymenoptera: Formicidae) of Kakamega Forest (Kenya)</article-title>
+          <source>
+            <italic>Journal of East African Natural History</italic></source>
+          <year>2009</year>
+          <volume>98</volume>
+          <fpage>147</fpage>
+          <lpage>165</lpage></nlm-citation>
+      </ref>
+      <ref id="B18" content-type="misc">
+        <label>19</label>
+        <nlm-citation publication-type="other">
+          <comment>
+            <ext-link ext-link-type="url" xlink:href="http://www.webarchive.org.uk/wayback/archive/20100617220041/http://antbase.org/ants/africa/contents.htm">http://www.webarchive.org.uk/wayback/archive/20100617220041/http://antbase.org/ants/africa/contents.htm</ext-link></comment>
+        </nlm-citation></ref>
+      <ref id="B19" content-type="article">
+        <label>20</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bolton</surname>
+              <given-names>B.</given-names></name>
+          </person-group>
+          <article-title>Synopsis and classification of Formicidae</article-title>
+          <source>
+            <italic>Memoirs of the American Entomological Institute</italic></source>
+          <year>2003</year>
+          <volume>71</volume>
+          <fpage>1</fpage>
+          <lpage>370</lpage></nlm-citation>
+      </ref>
+      <ref id="B20" content-type="book">
+        <label>21</label>
+        <nlm-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wheeler</surname>
+              <given-names>W. M.</given-names></name>
+          </person-group>
+          <source>
+            <italic>Ants: Their Structure, Development and Behavior</italic></source>
+          <year>1910</year>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <publisher-name>Columbia University Press</publisher-name></nlm-citation>
+      </ref>
+      <ref id="B21" content-type="book">
+        <label>22</label>
+        <nlm-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>F.</given-names></name>
+          </person-group>
+          <source>
+            <italic>Catalogue of Hymenopterous Insects in the Collection of the British Museum</italic></source>
+          <year>1858</year>
+          <publisher-loc>London, UK</publisher-loc>
+          <publisher-name>British Museum</publisher-name>
+          <series>Part VI. Formicidae</series></nlm-citation>
+      </ref>
+      <ref id="B22" content-type="book">
+        <label>23</label>
+        <nlm-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mackay</surname>
+              <given-names>W. P.</given-names></name>
+            <name>
+              <surname>Mackay</surname>
+              <given-names>E. E.</given-names></name>
+          </person-group>
+          <source>
+            <italic>The Systematics and Biology of the New World Ants of the Genus Pachycondyla (Hymenoptera: Formicidae)</italic></source>
+          <year>2010</year>
+          <publisher-loc>Lewiston, NY, USA</publisher-loc>
+          <publisher-name>The Edwin Mellen Press</publisher-name></nlm-citation>
+      </ref>
+      <ref id="B23" content-type="article">
+        <label>24</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mackay</surname>
+              <given-names>W. P.</given-names></name>
+            <name>
+              <surname>Mackay</surname>
+              <given-names>E. E.</given-names></name>
+          </person-group>
+          <article-title>A new species of the ant genus <italic>Pachycondyla</italic> F. Smith, 1858 from Ecuador (Hymenoptera: Formicidae)</article-title>
+          <source>
+            <italic>Myrmecologische Nachrichten</italic></source>
+          <year>2006</year>
+          <volume>8</volume>
+          <fpage>49</fpage>
+          <lpage>51</lpage></nlm-citation>
+      </ref>
+      <ref id="B24" content-type="article">
+        <label>25</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mariano</surname>
+              <given-names>C. D. S. F.</given-names></name>
+            <name>
+              <surname>Pompolo</surname>
+              <given-names>S. D. G.</given-names></name>
+            <name>
+              <surname>Silva</surname>
+              <given-names>J. G.</given-names></name>
+            <name>
+              <surname>Delabie</surname>
+              <given-names>J. H. C.</given-names></name>
+          </person-group>
+          <article-title>Contribution of cytogenetics to the debate on the paraphyly of Pachycondyla spp. (Hymenoptera, Formicidae, Ponerinae)</article-title>
+          <source>
+            <italic>Psyche</italic></source>
+          <year>2012</year>
+          <volume>2012</volume>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="other">2-s2.0-84856957427</pub-id>
+          <pub-id pub-id-type="doi">10.1155/2012/973897</pub-id>
+          <pub-id pub-id-type="publisher-id">973897</pub-id></nlm-citation>
+      </ref>
+      <ref id="B25" content-type="article">
+        <label>26</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mayr</surname>
+              <given-names>G.</given-names></name>
+          </person-group>
+          <article-title>Myrmecologische Studien</article-title>
+          <source>
+            <italic>Verhandlungen der Kaiserlich-Koniglichen Zoologisch-Botanischen Gesellschaft in Wien</italic></source>
+          <year>1862</year>
+          <volume>12</volume>
+          <fpage>649</fpage>
+          <lpage>776</lpage></nlm-citation>
+      </ref>
+      <ref id="B26" content-type="book">
+        <label>27</label>
+        <nlm-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>von Dalla Torre</surname>
+              <given-names>K. W.</given-names></name>
+          </person-group>
+          <source>
+            <italic>Catalogus Hymenopterorum hucusque descriptorum systematicus et synonymicus, Formicidae (Heterogyna)</italic></source>
+          <year>1893</year>
+          <volume>7</volume>
+          <publisher-loc>Leipzig, Germany</publisher-loc>
+          <publisher-name>W. Engelmann</publisher-name></nlm-citation>
+      </ref>
+      <ref id="B27" content-type="book">
+        <label>28</label>
+        <nlm-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bingham</surname>
+              <given-names>C. T.</given-names></name>
+          </person-group>
+          <source>
+            <italic>The Fauna of British India, Including Ceylon and Burma. Hymenoptera, Ants and Cuckoo-Wasps</italic></source>
+          <year>1903</year>
+          <volume>2</volume>
+          <publisher-loc>London, UK</publisher-loc>
+          <publisher-name>Taylor and Francis</publisher-name></nlm-citation>
+      </ref>
+      <ref id="B28" content-type="article">
+        <label>29</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ashmead</surname>
+              <given-names>W. H.</given-names></name>
+          </person-group>
+          <article-title>A skeleton of a new arrangement of the families, subfamilies, tribes and genera of the ants, or the superfamily Formicoidea</article-title>
+          <source>
+            <italic>The Canadian Entomologist</italic></source>
+          <year>1905</year>
+          <volume>37</volume>
+          <fpage>381</fpage>
+          <lpage>384</lpage></nlm-citation>
+      </ref>
+      <ref id="B29" content-type="article">
+        <label>30</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wheeler</surname>
+              <given-names>W. M.</given-names></name>
+          </person-group>
+          <article-title>Ants of the American Museum Congo expedition, A contribution to the myrmecology of Africa, IX. A synonymic list of the ants of the Malagasy region</article-title>
+          <source>
+            <italic>Bulletin of the American Museum of Natural History</italic></source>
+          <year>1922</year>
+          <volume>45</volume>
+          <fpage>1005</fpage>
+          <lpage>1055</lpage></nlm-citation>
+      </ref>
+      <ref id="B30" content-type="article">
+        <label>31</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bernard</surname>
+              <given-names>F.</given-names></name>
+          </person-group>
+          <article-title>Les fourmis du Tassili des Ajjer. Pp. 121&#x2013;250 in: Bernard, F., (ed.) Mission scientifique au Tassili des Ajjer (1949), Recherches zoologiques et m&#xE9;dicales, Paris</article-title>
+          <source>
+            <italic>P. Lechevalier</italic></source>
+          <year>1953</year>
+          <volume>I</volume>
+          <fpage>302</fpage></nlm-citation>
+      </ref>
+      <ref id="B31" content-type="book">
+        <label>32</label>
+        <nlm-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taylor</surname>
+              <given-names>R. W.</given-names></name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>D. R.</given-names></name>
+            <name>
+              <surname>Cardale</surname>
+              <given-names>J. C.</given-names></name>
+          </person-group>
+          <source>
+            <italic>Zoological Catalogue of Australia</italic></source>
+          <year>1985</year>
+          <volume>2</volume>
+          <publisher-loc>Canberra, Australia</publisher-loc>
+          <series>Hymenoptera: Formicoidea, Vespoidea and Sphecoidea</series></nlm-citation>
+      </ref>
+      <ref id="B32" content-type="article">
+        <label>33</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wheeler</surname>
+              <given-names>G. C.</given-names></name>
+            <name>
+              <surname>Wheeler</surname>
+              <given-names>J.</given-names></name>
+          </person-group>
+          <article-title>A simplified conspectus of the Formicidae</article-title>
+          <source>
+            <italic>Transactions of the American Entomological Society</italic></source>
+          <year>1985</year>
+          <volume>111</volume>
+          <fpage>255</fpage>
+          <lpage>264</lpage></nlm-citation>
+      </ref>
+      <ref id="B33" content-type="article">
+        <label>34</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taylor</surname>
+              <given-names>R. W.</given-names></name>
+          </person-group>
+          <article-title>A checklist of the ants of Australia, New Caledonia and New Zealand</article-title>
+          <source>
+            <italic>CSIRO Division of Entomology Report</italic></source>
+          <year>1987</year>
+          <volume>41</volume>
+          <fpage>1</fpage>
+          <lpage>92</lpage></nlm-citation>
+      </ref>
+      <ref id="B34" content-type="incollection">
+        <label>35</label>
+        <nlm-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dlussky</surname>
+              <given-names>G. M.</given-names></name>
+            <name>
+              <surname>Fedoseeva</surname>
+              <given-names>E. B.</given-names></name>
+          </person-group>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Ponomarenko</surname>
+              <given-names>A. G.</given-names></name>
+          </person-group>
+          <article-title>Origin and early stages of evolution in ants</article-title>
+          <source>
+            <italic>Cretaceous Biocenotic Crisis and Insect Evolution</italic></source>
+          <year>1988</year>
+          <publisher-loc>Moscow, Russia</publisher-loc>
+          <publisher-name>Nauka</publisher-name>
+          <fpage>70</fpage>
+          <lpage>144</lpage></nlm-citation>
+      </ref>
+      <ref id="B35" content-type="article">
+        <label>36</label>
+        <nlm-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rakotonirina</surname>
+              <given-names>J. C.</given-names></name>
+            <name>
+              <surname>Fisher</surname>
+              <given-names>B. L.</given-names></name>
+          </person-group>
+          <article-title>Revision of the <italic>Pachycondyla wasmannii</italic>-group (Hymenoptera: Formicidae) from the Malagasy region</article-title>
+          <source>
+            <italic>Zootaxa</italic></source>
+          <year>2013</year>
+          <volume>3609</volume>
+          <issue>2</issue>
+          <fpage>101</fpage>
+          <lpage>141</lpage></nlm-citation>
+      </ref>
+      <ref id="B36" content-type="book">
+        <label>37</label>
+        <nlm-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bolton</surname>
+              <given-names>B.</given-names></name>
+            <name>
+              <surname>Alpert</surname>
+              <given-names>G.</given-names></name>
+            <name>
+              <surname>Ward</surname>
+              <given-names>P. S.</given-names></name>
+            <name>
+              <surname>Naskrecki</surname>
+              <given-names>P.</given-names></name>
+          </person-group>
+          <source>
+            <italic>Bolton's Catalogue of Ants of the World 1758&#x2013;2005</italic></source>
+          <year>2007</year>
+          <publisher-name>Harvard University Press</publisher-name></nlm-citation>
+      </ref>
+      <ref id="B37" content-type="misc">
+        <label>38</label>
+        <nlm-citation publication-type="other">
+          <comment>
+            <ext-link ext-link-type="url" xlink:href="http://www.mbendi.com/a_sndmsg/place_view.asp?pid=9678">http://www.mbendi.com/a_sndmsg/place_view.asp?pid=9678</ext-link></comment>
+        </nlm-citation></ref>
+      <ref id="B38" content-type="misc">
+        <label>39</label>
+        <nlm-citation publication-type="other">
+          <comment>
+            <ext-link ext-link-type="url" xlink:href="http://en.wikipedia.org/wiki/Whittlesea">http://en.wikipedia.org/wiki/Whittlesea</ext-link></comment>
+        </nlm-citation></ref>
+    </ref-list></back>
+</article>
+

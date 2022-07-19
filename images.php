@@ -34,10 +34,12 @@ function get($url, $format = '')
 	return $response;
 }
 
+
 //----------------------------------------------------------------------------------------
 
 
 $filename = 'pone.0063616.xml';
+$filename = '917847.xml';
 
 $xml = file_get_contents($filename);
 
@@ -56,8 +58,13 @@ foreach ($xpath->query ('//fig/graphic') as $node)
 	$filename = str_replace('info:doi/10.1371/', '', $href);
 	
 	// create URL to fetch image (will be publisher specific)
-	$href = 'https://journals.plos.org/plosone/article/figure/image?download&size=large&id=' . $href;
 	
+	// plos
+	//$href = 'https://journals.plos.org/plosone/article/figure/image?download&size=large&id=' . $href;
+	
+	// Hindawi
+	$href = 'https://static-02.hindawi.com/articles/psyche/volume-2013/917847/figures/' . $href . '.jpg';
+		
 	// tmp file to store image
 	$tmp_name = "imagefile";
 	
