@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "SYSTEM" "jats-archiving-dtd-1.0/JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Journal of Arachnology</journal-title>
+      </journal-title-group>
+      <issn>0161-8202</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="biostor">217262</article-id>
+      <article-id pub-id-type="doi">10.1636/h07-80.1</article-id>
+      <title-group>
+        <article-title>A new micro-whip scorpion species from Brazilian Amazonia (Arachnida, Schizomida, Hubbardiidae), with the description of a new synapomorphy for Uropygi</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Santos</surname>
+            <given-names>Adalberto J</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pinto-Da-Rocha</surname>
+            <given-names>Ricardo</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <pub-date pub-type="ppub">
+        <year>2009</year>
+      </pub-date>
+      <volume>37</volume>
+      <issue>1</issue>
+      <fpage>39</fpage>
+      <lpage>44</lpage>
+    </article-meta>
+  </front>
+  <body>
+    <supplementary-material content-type="scanned-pages">
+      <graphic xlink:href="http://www.biodiversitylibrary.org/pagethumb/53122891" xlink:role="53122891" xlink:title="scanned-page"/>
+      <graphic xlink:href="http://www.biodiversitylibrary.org/pagethumb/53122892" xlink:role="53122892" xlink:title="scanned-page"/>
+      <graphic xlink:href="http://www.biodiversitylibrary.org/pagethumb/53122893" xlink:role="53122893" xlink:title="scanned-page"/>
+      <graphic xlink:href="http://www.biodiversitylibrary.org/pagethumb/53122894" xlink:role="53122894" xlink:title="scanned-page"/>
+      <graphic xlink:href="http://www.biodiversitylibrary.org/pagethumb/53122895" xlink:role="53122895" xlink:title="scanned-page"/>
+      <graphic xlink:href="http://www.biodiversitylibrary.org/pagethumb/53122896" xlink:role="53122896" xlink:title="scanned-page"/>
+    </supplementary-material>
+  </body>
+</article>
