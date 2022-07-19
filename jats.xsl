@@ -37,12 +37,34 @@ li {
 td {
 	border:1px solid black;
 }
+
+.pagethumbnail {
+	float:left;
+	padding:20px;
+}
+
+.pagethumbnail img {
+	height:100px;
+	/* border:1px solid rgb(192,192,192);*/
+}
+
+.pageimage {
+	margin-bottom:20px;
+}
+
+.pageimage img {
+	width:80%;
+}
                 </style>
             </head>
             <body>
 
 	<xsl:apply-templates select="//article-meta"/>
 	<xsl:apply-templates select="//abstract"/>
+	
+	<!-- scan specific stuff -->
+	<xsl:apply-templates select="supplementary-material"/>
+	
 	<xsl:apply-templates select="//body"/>
 	<xsl:apply-templates select="//back"/>
 	
@@ -54,78 +76,77 @@ td {
 </xsl:template>
 
 <xsl:template match="//article-meta">
-<hr/>
+	<hr/>
 
-<div>
-					<p style="font-size:80%">
-						<xsl:value-of select="//journal-meta/journal-title-group/journal-title"/>
-						<xsl:text> </xsl:text>
-						<xsl:if test="//article-meta/pub-date/day">
-							<xsl:value-of select="//article-meta/pub-date/day"/>
-							<xsl:text> </xsl:text>
-						</xsl:if>
-						<xsl:if test="//article-meta/pub-date/month">
-							<xsl:choose>
-								<xsl:when test="//article-meta/pub-date/month = 1">
-									<xsl:text>January</xsl:text>
-								</xsl:when>
-								<xsl:when test="//article-meta/pub-date/month = 2">
-									<xsl:text>February</xsl:text>
-								</xsl:when>
-								<xsl:when test="//article-meta/pub-date/month = 3">
-									<xsl:text>March</xsl:text>
-								</xsl:when>
-								<xsl:when test="//article-meta/pub-date/month = 4">
-									<xsl:text>April</xsl:text>
-								</xsl:when>
-								<xsl:when test="//article-meta/pub-date/month = 5">
-									<xsl:text>May</xsl:text>
-								</xsl:when>
-								<xsl:when test="//article-meta/pub-date/month = 6">
-									<xsl:text>June</xsl:text>
-								</xsl:when>
-								<xsl:when test="//article-meta/pub-date/month = 7">
-									<xsl:text>July</xsl:text>
-								</xsl:when>
-								<xsl:when test="//article-meta/pub-date/month = 8">
-									<xsl:text>August</xsl:text>
-								</xsl:when>
-								<xsl:when test="//article-meta/pub-date/month = 9">
-									<xsl:text>September</xsl:text>
-								</xsl:when>
-								<xsl:when test="//article-meta/pub-date/month = 10">
-									<xsl:text>October</xsl:text>
-								</xsl:when>
-								<xsl:when test="//article-meta/pub-date/month = 11">
-									<xsl:text>November</xsl:text>
-								</xsl:when>
-								<xsl:when test="//article-meta/pub-date/month = 12">
-									<xsl:text>December</xsl:text>
-								</xsl:when>
-							</xsl:choose>
-							<xsl:text> </xsl:text>
-						</xsl:if>
-						<xsl:value-of select="//article-meta/pub-date/year"/>
-						<xsl:text> </xsl:text>
-						<xsl:value-of select="//article-meta/volume"/>
-						<xsl:if test="//article-meta/issue">
-							<xsl:text>(</xsl:text>
-							<xsl:value-of select="//article-meta/issue"/>
-							<xsl:text>)</xsl:text>
-						</xsl:if>
-						<xsl:text>: </xsl:text>
-						<xsl:if test="//article-meta/fpage">
-							<xsl:value-of select="//article-meta/fpage"/>
-							<xsl:text>-</xsl:text>
-							<xsl:value-of select="//article-meta/lpage"/>
-						</xsl:if>
-						<xsl:if test="//article-meta/elocation-id">
-							<xsl:value-of select="//article-meta/elocation-id"/>
-						</xsl:if>
-						
-					</p>
-				</div>
-
+	<div>
+		<p style="font-size:80%">
+			<xsl:value-of select="//journal-meta/journal-title-group/journal-title"/>
+			<xsl:text> </xsl:text>
+			<xsl:if test="//article-meta/pub-date/day">
+				<xsl:value-of select="//article-meta/pub-date/day"/>
+				<xsl:text> </xsl:text>
+			</xsl:if>
+			<xsl:if test="//article-meta/pub-date/month">
+				<xsl:choose>
+					<xsl:when test="//article-meta/pub-date/month = 1">
+						<xsl:text>January</xsl:text>
+					</xsl:when>
+					<xsl:when test="//article-meta/pub-date/month = 2">
+						<xsl:text>February</xsl:text>
+					</xsl:when>
+					<xsl:when test="//article-meta/pub-date/month = 3">
+						<xsl:text>March</xsl:text>
+					</xsl:when>
+					<xsl:when test="//article-meta/pub-date/month = 4">
+						<xsl:text>April</xsl:text>
+					</xsl:when>
+					<xsl:when test="//article-meta/pub-date/month = 5">
+						<xsl:text>May</xsl:text>
+					</xsl:when>
+					<xsl:when test="//article-meta/pub-date/month = 6">
+						<xsl:text>June</xsl:text>
+					</xsl:when>
+					<xsl:when test="//article-meta/pub-date/month = 7">
+						<xsl:text>July</xsl:text>
+					</xsl:when>
+					<xsl:when test="//article-meta/pub-date/month = 8">
+						<xsl:text>August</xsl:text>
+					</xsl:when>
+					<xsl:when test="//article-meta/pub-date/month = 9">
+						<xsl:text>September</xsl:text>
+					</xsl:when>
+					<xsl:when test="//article-meta/pub-date/month = 10">
+						<xsl:text>October</xsl:text>
+					</xsl:when>
+					<xsl:when test="//article-meta/pub-date/month = 11">
+						<xsl:text>November</xsl:text>
+					</xsl:when>
+					<xsl:when test="//article-meta/pub-date/month = 12">
+						<xsl:text>December</xsl:text>
+					</xsl:when>
+				</xsl:choose>
+				<xsl:text> </xsl:text>
+			</xsl:if>
+			<xsl:value-of select="//article-meta/pub-date/year"/>
+			<xsl:text> </xsl:text>
+			<xsl:value-of select="//article-meta/volume"/>
+			<xsl:if test="//article-meta/issue">
+				<xsl:text>(</xsl:text>
+				<xsl:value-of select="//article-meta/issue"/>
+				<xsl:text>)</xsl:text>
+			</xsl:if>
+			<xsl:text>: </xsl:text>
+			<xsl:if test="//article-meta/fpage">
+				<xsl:value-of select="//article-meta/fpage"/>
+				<xsl:text>-</xsl:text>
+				<xsl:value-of select="//article-meta/lpage"/>
+			</xsl:if>
+			<xsl:if test="//article-meta/elocation-id">
+				<xsl:value-of select="//article-meta/elocation-id"/>
+			</xsl:if>
+			
+		</p>
+	</div>
 
 	<h1><xsl:value-of select="//article-title" /></h1>
 	<xsl:apply-templates select="//contrib-group"/>
@@ -239,9 +260,7 @@ td {
     		<xsl:apply-templates />
     	</div>
     </xsl:template>
-    
-    
-    
+      
     <xsl:template match="list-item">
     	<div style="display: block;overflow: auto;margin-bottom:1em;">
     	<xsl:if test="label">
@@ -256,8 +275,7 @@ td {
     	</xsl:if>
     	</div>
     </xsl:template>
-
-    
+   
     <!-- citations -->
     <xsl:template match="xref">
     	<xsl:choose>
@@ -363,7 +381,6 @@ td {
     <xsl:template match="tr"><tr><xsl:apply-templates /></tr></xsl:template>
     <xsl:template match="td"><td><xsl:apply-templates /></td></xsl:template>
     
- 
 	<!-- tp -->
 	<!--
           <tp:nomenclature>
@@ -582,5 +599,70 @@ td {
 <!-- eat this so it doesn't appear in figure captions-->
 <xsl:template match="object-id">
 </xsl:template>
+
+<!-- scan specific stuff -->
+<xsl:template match="supplementary-material">
+	<hr/>
+	<h2>Thumbnails</h2>
+
+	<p>
+	Full text is available as a scanned copy of the original print version. 
+	Get a printable copy (PDF file) of the <u>complete article</u>, or click on a page image below to browse page by page. 
+	
+	<xsl:if test="//back">
+		Links are also available for <a href="#reference-sec">Selected References</a>.
+	</xsl:if>
+	
+	</p>
+
+	<!-- thumbnails -->
+	<div style="display: block;overflow: auto;">
+		<xsl:for-each select="//supplementary-material/graphic">
+			<div class="pagethumbnail">
+				<img>
+					<xsl:attribute name="src">
+						<xsl:text>https://aipbvczbup.cloudimg.io/s/height/100/</xsl:text>
+						<xsl:value-of select="@xlink:href" /> 
+					</xsl:attribute>
+				</img>
+				<div style="text-align:center">
+					<xsl:value-of select="@xlink:role" />
+				</div>
+			</div>
+		</xsl:for-each>
+	</div>
+	
+	<!-- how to display page scans? -->
+
+	<hr />
+	
+	<h2>Associated Data</h2>
+	
+	<div style="text-align:center;">
+	
+	<xsl:for-each select="//supplementary-material/graphic">
+	
+		<hr/>
+	
+		<div class="pageimage">
+			<img> 
+				<xsl:attribute name="src">
+				<xsl:text>https://aipbvczbup.cloudimg.io/s/height/800/</xsl:text>
+				<xsl:text>http://www.biodiversitylibrary.org/pageimage/</xsl:text>
+		
+		
+				<xsl:value-of select="substring-after(@xlink:href, '/pagethumb/')" /> 
+				</xsl:attribute>
+			</img>	
+		</div>	
+	</xsl:for-each>
+	
+	</div>
+
+	
+	
+</xsl:template>
+
+
 
 </xsl:stylesheet>
