@@ -41,6 +41,7 @@ td {
 .pagethumbnail {
 	float:left;
 	padding:20px;
+	margin: 0px;
 }
 
 .pagethumbnail img {
@@ -48,7 +49,13 @@ td {
 	/* border:1px solid rgb(192,192,192);*/
 }
 
+.pagethumbnail figcaption {
+	font-size: 0.8em;
+	text-align:center;
+}
+
 .pageimage {
+	margin:0px;
 	margin-bottom:20px;
 }
 
@@ -618,17 +625,26 @@ td {
 	<!-- thumbnails -->
 	<div style="display: block;overflow: auto;">
 		<xsl:for-each select="//supplementary-material/graphic">
-			<div class="pagethumbnail">
+			<a>
+				<xsl:attribute name="href">
+					<xsl:text>#</xsl:text>
+					<xsl:value-of select="@id" /> 
+				</xsl:attribute>
+		
+			<figure class="pagethumbnail">
 				<img>
 					<xsl:attribute name="src">
 						<xsl:text>https://aipbvczbup.cloudimg.io/s/height/100/</xsl:text>
 						<xsl:value-of select="@xlink:href" /> 
 					</xsl:attribute>
 				</img>
-				<div style="text-align:center">
-					<xsl:value-of select="@xlink:role" />
-				</div>
-			</div>
+				<figcaption>
+					<xsl:value-of select="@xlink:title" />
+				</figcaption>
+			</figure>
+			
+			</a>
+			
 		</xsl:for-each>
 	</div>
 	
@@ -644,17 +660,23 @@ td {
 	
 		<hr/>
 	
-		<div class="pageimage">
+		<a>
+			<xsl:attribute name="name">
+				<xsl:value-of select="@id" /> 
+			</xsl:attribute>
+	
+	
+		<figure class="pageimage">
 			<img> 
 				<xsl:attribute name="src">
 				<xsl:text>https://aipbvczbup.cloudimg.io/s/height/800/</xsl:text>
 				<xsl:text>http://www.biodiversitylibrary.org/pageimage/</xsl:text>
-		
-		
 				<xsl:value-of select="substring-after(@xlink:href, '/pagethumb/')" /> 
 				</xsl:attribute>
 			</img>	
-		</div>	
+		</figure>	
+		
+		</a>
 	</xsl:for-each>
 	
 	</div>
