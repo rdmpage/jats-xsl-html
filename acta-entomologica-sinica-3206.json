@@ -1,0 +1,34 @@
+{
+    "identifier": "/var/tmp/autoclean/derive/acta-entomologica-sinica-3206/acta-entomologica-sinica-3206",
+    "pages": [
+        {
+            "leafNum": 1,
+            "ocr_value": [
+                "228",
+                "44",
+                "8"
+            ],
+            "pageNumber": "228",
+            "confidence": 0
+        },
+        {
+            "leafNum": 2,
+            "ocr_value": [
+                "2",
+                "229"
+            ],
+            "pageNumber": "229",
+            "confidence": 0
+        },
+        {
+            "leafNum": 3,
+            "ocr_value": [
+                "230",
+                "44"
+            ],
+            "pageNumber": "230",
+            "confidence": 0
+        }
+    ],
+    "confidence": 0
+}

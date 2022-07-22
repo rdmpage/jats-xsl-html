@@ -46,7 +46,7 @@ td {
 
 .pagethumbnail img {
 	height:100px;
-	/* border:1px solid rgb(192,192,192);*/
+	border:1px solid rgb(192,192,192);
 }
 
 .pagethumbnail figcaption {
@@ -57,10 +57,12 @@ td {
 .pageimage {
 	margin:0px;
 	margin-bottom:20px;
+	
 }
 
 .pageimage img {
 	width:80%;
+	border:1px solid rgb(192,192,192);
 }
                 </style>
             </head>
@@ -606,6 +608,10 @@ td {
 <!-- eat this so it doesn't appear in figure captions-->
 <xsl:template match="object-id">
 </xsl:template>
+<!-- eat this so it doesn't appear in figure captions-->
+<xsl:template match="uri">
+</xsl:template>
+
 
 <!-- scan specific stuff -->
 <xsl:template match="supplementary-material">
@@ -670,8 +676,11 @@ td {
 			<img> 
 				<xsl:attribute name="src">
 				<xsl:text>https://aipbvczbup.cloudimg.io/s/height/800/</xsl:text>
+				<!--
 				<xsl:text>http://www.biodiversitylibrary.org/pageimage/</xsl:text>
-				<xsl:value-of select="substring-after(@xlink:href, '/pagethumb/')" /> 
+				<xsl:value-of select="substring-after(@xlink:href, '/pagethumb/')" /> 				
+				-->
+				<xsl:value-of select="@xlink:href" /> 
 				</xsl:attribute>
 			</img>	
 		</figure>	

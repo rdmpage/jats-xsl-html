@@ -1,0 +1,53 @@
+{
+    "identifier": "/var/tmp/autoclean/derive/ijo1388789020099748349/ijo1388789020099748349",
+    "confidence": 100.0,
+    "pages": [
+        {
+            "leafNum": 1,
+            "ocr_value": [
+                "1964",
+                "332",
+                "12"
+            ],
+            "confidence": 100,
+            "pageNumber": "332"
+        },
+        {
+            "leafNum": 2,
+            "ocr_value": [
+                "1842",
+                "333"
+            ],
+            "confidence": 100,
+            "pageNumber": "333"
+        },
+        {
+            "leafNum": 3,
+            "ocr_value": [
+                "334",
+                "12"
+            ],
+            "confidence": 100,
+            "pageNumber": "334"
+        },
+        {
+            "leafNum": 4,
+            "ocr_value": [
+                "335"
+            ],
+            "confidence": 100,
+            "pageNumber": "335"
+        },
+        {
+            "leafNum": 5,
+            "ocr_value": [
+                "2009",
+                "19",
+                "336",
+                "12"
+            ],
+            "confidence": 100,
+            "pageNumber": "336"
+        }
+    ]
+}

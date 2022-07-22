@@ -40,6 +40,7 @@ function get($url, $format = '')
 
 $filename = 'pone.0063616.xml';
 $filename = '917847.xml';
+$filename = '26292.xml';
 
 $xml = file_get_contents($filename);
 
@@ -54,16 +55,24 @@ foreach ($xpath->query ('//fig/graphic') as $node)
 {
 	$href = $node->getAttribute('xlink:href');
 	
-	// create a safe file name (publisher specific)
-	$filename = str_replace('info:doi/10.1371/', '', $href);
+	$filename = $href;
+	
 	
 	// create URL to fetch image (will be publisher specific)
 	
 	// plos
 	//$href = 'https://journals.plos.org/plosone/article/figure/image?download&size=large&id=' . $href;
+	// create a safe file name 
+	//$filename = str_replace('info:doi/10.1371/', '', $href);
 	
 	// Hindawi
-	$href = 'https://static-02.hindawi.com/articles/psyche/volume-2013/917847/figures/' . $href . '.jpg';
+	//$href = 'https://static-02.hindawi.com/articles/psyche/volume-2013/917847/figures/' . $href . '.jpg';
+	
+	// Pensoft
+	foreach ($xpath->query ('uri', $node) as $n)
+	{
+		$href = $n->firstChild->nodeValue;
+	}
 		
 	// tmp file to store image
 	$tmp_name = "imagefile";
