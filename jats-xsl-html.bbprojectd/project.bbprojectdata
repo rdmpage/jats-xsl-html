@@ -97,11 +97,11 @@
 				AAAQ0AAABAAAAAAAAAA=
 				</data>
 				<key>FileURL</key>
-				<string>file:///Users/rpage/Sites/jats-xsl-html/scan.xsl</string>
+				<string>file:///Users/rpage/Sites/jats-xsl-html/junk/scan.xsl</string>
 				<key>HasSecurityScope</key>
 				<true/>
 				<key>RelativePath</key>
-				<string>./scan.xsl</string>
+				<string>./junk/scan.xsl</string>
 				<key>TypeID</key>
 				<string>_CFileLocator</string>
 				<key>Version</key>

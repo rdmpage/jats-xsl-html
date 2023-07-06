@@ -41,6 +41,7 @@ function get($url, $format = '')
 $filename = 'pone.0063616.xml';
 $filename = '917847.xml';
 $filename = '26292.xml';
+$filename = '39128.xml';
 
 $xml = file_get_contents($filename);
 
@@ -54,6 +55,8 @@ $xpath->registerNamespace("xlink", "http://www.w3.org/1999/xlink");
 foreach ($xpath->query ('//fig/graphic') as $node)
 {
 	$href = $node->getAttribute('xlink:href');
+	
+	//echo $href ."\n";
 	
 	$filename = $href;
 	
@@ -84,9 +87,17 @@ foreach ($xpath->query ('//fig/graphic') as $node)
 	$finfo = finfo_open(FILEINFO_MIME_TYPE);
 	$mime_type = finfo_file($finfo, $tmp_name);
 	
+	//print_r($mime_type);
+	//echo "\n";
+	
+	$filename = preg_replace('/(\.(gif|jpg|jpeg|png|tif|tiff))$/', '', $filename);
+	
 	$extension = "." . explode('/', $mime_type )[1];
 	
 	$filename .= $extension;
+	
+	//echo $filename . "\n";
+	//exit();
 	
 	copy($tmp_name, $filename);
 	

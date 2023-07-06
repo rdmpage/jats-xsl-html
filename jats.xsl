@@ -640,7 +640,7 @@ td {
 			<figure class="pagethumbnail">
 				<img>
 					<xsl:attribute name="src">
-						<xsl:text>https://aipbvczbup.cloudimg.io/s/height/100/</xsl:text>
+						<!-- <xsl:text>https://aipbvczbup.cloudimg.io/s/height/100/</xsl:text> -->
 						<xsl:value-of select="@xlink:href" /> 
 					</xsl:attribute>
 				</img>
@@ -675,7 +675,7 @@ td {
 		<figure class="pageimage">
 			<img> 
 				<xsl:attribute name="src">
-				<xsl:text>https://aipbvczbup.cloudimg.io/s/height/800/</xsl:text>
+				<!-- <xsl:text>https://aipbvczbup.cloudimg.io/s/height/800/</xsl:text> -->
 				<!--
 				<xsl:text>http://www.biodiversitylibrary.org/pageimage/</xsl:text>
 				<xsl:value-of select="substring-after(@xlink:href, '/pagethumb/')" /> 				
