@@ -85,8 +85,6 @@ td {
 </xsl:template>
 
 <xsl:template match="//article-meta">
-	<hr/>
-
 	<div>
 		<p style="font-size:80%">
 			<xsl:value-of select="//journal-meta/journal-title-group/journal-title"/>
@@ -232,14 +230,12 @@ td {
     </xsl:template>
     
     <xsl:template match="//back">
-    	<hr/>
         <xsl:apply-templates select="ack"/>
-        <hr/>
         <xsl:apply-templates select="ref-list"/>
     </xsl:template>
     
     <xsl:template match="sec">
-    	<hr/>
+    	<!-- <hr/> -->
         <xsl:apply-templates/>
     </xsl:template>
 
@@ -372,8 +368,30 @@ td {
     <xsl:template match="label"><b><xsl:apply-templates /></b></xsl:template>
 
 	<!-- title -->
-	<xsl:template match="sec/title"><h2><xsl:apply-templates /></h2></xsl:template>
-	<xsl:template match="ack/title"><h2><xsl:apply-templates /></h2></xsl:template>
+	<xsl:template match="sec/title">
+	
+	
+	<xsl:choose>
+		<xsl:when test="count(ancestor-or-self::sec)=1">
+			<h2><xsl:apply-templates /></h2>
+		</xsl:when>
+	
+		<xsl:when test="count(ancestor-or-self::sec)=2">
+			<h3><xsl:apply-templates /></h3>
+		</xsl:when>
+
+		<xsl:when test="count(ancestor-or-self::sec)=3">
+			<h4><xsl:apply-templates /></h4>
+		</xsl:when>
+		
+		<xsl:otherwise>
+			<h4><xsl:apply-templates /></h4>
+		</xsl:otherwise>
+	</xsl:choose>
+	
+	</xsl:template>
+
+	<!-- <xsl:template match="ack/title"><h2><xsl:apply-templates /></h2></xsl:template> -->
 
     <xsl:template match="title"><b><xsl:apply-templates /></b></xsl:template>
 
