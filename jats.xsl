@@ -20,18 +20,17 @@ h1 {
 }
 
 h2 {
-font-family:sans-serif;
+	font-family:sans-serif;
+	border-bottom: 1px solid black;
 }
 
-p {
-	
+p {	
 	line-height:1.5em;
 }
 
 li {
 	line-height:1.5em;
 	margin-bottom:1em;
-
 }
 
 td {
@@ -87,7 +86,10 @@ td {
 <xsl:template match="//article-meta">
 	<div>
 		<p style="font-size:80%">
+			<!-- why do we have different ways of doing this? -->
 			<xsl:value-of select="//journal-meta/journal-title-group/journal-title"/>
+			<xsl:value-of select="../journal-meta/journal-title"/>
+			
 			<xsl:text> </xsl:text>
 			<xsl:if test="//article-meta/pub-date/day">
 				<xsl:value-of select="//article-meta/pub-date/day"/>
@@ -370,24 +372,24 @@ td {
 	<!-- title -->
 	<xsl:template match="sec/title">
 	
+		<!-- heading level based on depth of sec tag -->
+		<xsl:choose>
+			<xsl:when test="count(ancestor-or-self::sec)=1">
+				<h2><xsl:apply-templates /></h2>				
+			</xsl:when>
 	
-	<xsl:choose>
-		<xsl:when test="count(ancestor-or-self::sec)=1">
-			<h2><xsl:apply-templates /></h2>
-		</xsl:when>
-	
-		<xsl:when test="count(ancestor-or-self::sec)=2">
-			<h3><xsl:apply-templates /></h3>
-		</xsl:when>
+			<xsl:when test="count(ancestor-or-self::sec)=2">
+				<h3><xsl:apply-templates /></h3>
+			</xsl:when>
 
-		<xsl:when test="count(ancestor-or-self::sec)=3">
-			<h4><xsl:apply-templates /></h4>
-		</xsl:when>
+			<xsl:when test="count(ancestor-or-self::sec)=3">
+				<h4><xsl:apply-templates /></h4>
+			</xsl:when>
 		
-		<xsl:otherwise>
-			<h4><xsl:apply-templates /></h4>
-		</xsl:otherwise>
-	</xsl:choose>
+			<xsl:otherwise>
+				<h4><xsl:apply-templates /></h4>
+			</xsl:otherwise>
+		</xsl:choose>
 	
 	</xsl:template>
 
@@ -495,6 +497,10 @@ td {
             
             <!-- Biodiversity Data Journal -->
             <xsl:apply-templates select="element-citation"/>
+            
+            <!-- Frontiers  -->
+            <xsl:apply-templates select="citation"/>
+            
         </li>
     </xsl:template>
 
@@ -560,7 +566,7 @@ td {
     </xsl:template>
     
     <!-- a citation -->
-    <xsl:template match="mixed-citation | element-citation | nlm-citation">
+    <xsl:template match="mixed-citation | element-citation | nlm-citation | citation">
 		<xsl:apply-templates/>
 		
 		<!-- links -->
